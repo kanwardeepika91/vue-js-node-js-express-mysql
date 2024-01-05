@@ -8,11 +8,13 @@
 ```
  
 ### Tools:
+```
 *nodejs v12+
  terraform
  aws
  mysql
  docker*
+```
 
 ### Tutorial Application
 ```
@@ -45,6 +47,7 @@ https://www.bezkoder.com/node-js-express-sequelize-mysql/
    docker push 249448484.dkr.ecr.us-east-1.amazonaws.com/dev_ecs_ecr:latest
 10. Use the buildspec for AWS Codebuild/pipeline  
 
+```
 These are related to buildspec.yml 
 #env: mentioned as plain text in Environment variables or you can also use parameter store/
 secrets manager
@@ -71,6 +74,7 @@ CREATE TABLE IF NOT EXISTS `tutorials` (`id` INTEGER NOT NULL auto_increment , `
 SHOW INDEX FROM `tutorials`;
 
 
+```
 **********************************************************************
 
 ### Additional details: 
